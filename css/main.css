@@ -1,0 +1,378 @@
+/* start footer */
+
+.footer {
+  background-color: #170303;
+  color: #76d17bd4;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.body {
+  background-color: #494848;
+  padding-bottom: 60px;
+}
+.HomePage .main-post {
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.HomePage .main-post h3 {
+  font-weight: bold;
+  margin: 0 0 10px;
+  color: #3a0404f6;
+  letter-spacing: -1px;
+}
+
+.HomePage .main-post .img-thumb {
+  display: block;
+  margin: 10px 0 10px;
+}
+
+.HomePage .main-post i {
+  color: mediumblue;
+}
+
+.HomePage .main-post .post-content {
+  line-height: 1.6;
+  color: #2f2e2e;
+}
+.HomePage.post-author,
+.HomePage.post-date,
+.HomePage.post-comment {
+  font-size: 13px;
+}
+
+.HomePage .categories {
+  font-size: 13px;
+}
+.num_paginate {
+  margin-bottom: 20px;
+
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.num_paginate .page-numbers {
+  display: inline-block;
+  background-color: black;
+  padding: 5px 10px;
+  color: limegreen;
+  font-weight: normal;
+  border-radius: 50px;
+  transition: all;
+}
+.num_paginate .page-numbers.current {
+  background-color: rgb(57, 53, 53);
+}
+.large {
+  font-size: xx-large;
+}
+/* end of main page */
+
+/* -----------------Postpage(sinlge.php)------------------ */
+
+.POStPage .post-edit-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  border-radius: 0 0 0 10px;
+  background-color: #9ea4a0;
+  color: rgb(18, 27, 2);
+  font-weight: bold;
+}
+.POStPage .post-edit-link i {
+  color: rgb(18, 27, 2);
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.POStPage .main-post {
+  position: relative;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.POStPage .main-post h3 {
+  font-weight: bold;
+  margin: 0 0 10px;
+  color: #3a0404f6;
+  letter-spacing: -1px;
+}
+
+.POStPage .main-post .img-thumb {
+  display: block;
+  margin: 10px 0 10px;
+}
+
+.POStPage .main-post i {
+  color: mediumblue;
+}
+
+.POStPage .main-post .post-content {
+  line-height: 1.6;
+  color: #2f2e2e;
+}
+.POStPage .post-author,
+.POStPage .post-date,
+.POStPage .post-comment {
+  font-size: 13px;
+}
+
+.POStPage .categories {
+  font-size: 13px;
+}
+.Post-paginate {
+  width: 400px;
+  text-align: center;
+  margin: 20px auto 40px;
+}
+.Post-paginate a {
+  display: inline-block;
+  color: #bdbeb7;
+  padding: 20px 10px;
+  background-color: #100f0f;
+  border-radius: 50px;
+}
+.Post-paginate a:first-child .span {
+  margin-right: 20px;
+}
+.Post-paginate a :last-child .span {
+  margin-left: 10px;
+}
+
+.large {
+  font-size: large;
+}
+
+.children,
+.master_list {
+  list-style: none;
+}
+.comments_number {
+  border: 1px solid black;
+  background-color: darkgrey;
+  font-size: 25px;
+}
+.master_list > .comment {
+  border: 1px solid black;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.master_list > .comment > .children > .comment {
+  border: 1px solid rgb(3, 1, 1);
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: #929792d4;
+  position: relative;
+}
+.master_list > .comment > .children > .comment ::after {
+  content: "Author";
+  top: 5px;
+  right: 10px;
+  position: absolute;
+  font-size: 35px;
+  font-weight: bold;
+  color: #6e7b79;
+}
+.comment-respond textarea,
+.comment-respond input[type="text"] {
+  background-color: #c3c0c0;
+}
+.comment-respond .comment-reply-title {
+  text-align: center;
+  border: 2px solid rgb(15, 15, 15);
+  color: rgb(111, 245, 196);
+  background-color: rgb(125, 120, 120);
+}
+.author {
+  background-color: #2f2e2e;
+}
+.image-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* ==author-page=== */
+
+.author-page .au_title {
+  border-radius: 50px;
+  text-align: center;
+  background-color: grey;
+}
+
+.author-page .infor {
+  position: relative;
+  padding: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.author-page .infor .img-thumb {
+  display: block;
+  margin-left: 100px;
+}
+
+.author-page .infor h2 {
+  margin-right: auto;
+  margin-left: auto;
+}
+.author-page .infor .description {
+  line-height: 1.6;
+  color: #077079;
+  font-size: 20px;
+}
+
+.author-page .comments {
+  margin-left: 150px;
+}
+
+.author-page .posts_view {
+  margin-left: 150px;
+}
+
+.author-page .Testing {
+  margin-left: 150px;
+}
+
+.author_posts {
+  background: lawngreen;
+  border: 2px solid black;
+}
+.author-page .show_comments {
+  background-color: #d8dddea1;
+  width: 100%;
+}
+.author-page .show_comments .comments_section {
+  background: lawngreen;
+  border: 2px solid black;
+  width: 100%;
+}
+.author-page .show_comments .comment_title,
+.author-page .show_comments .comment_date,
+.author-page .show_comments .comment_content {
+  margin-left: 40px;
+}
+.author-page .show_comments .comment_title {
+  background-color: #c3c0c0;
+}
+.author-page .show_comments .comment_date {
+  font-size: 15px;
+
+  color: #711b1b;
+}
+
+.author-page .show_comments .comment_content {
+  font-size: 30px;
+  color: #2f2e2e;
+}
+/* ------------category page------------- */
+
+.category .cat_info {
+  position: relative;
+  padding: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+  border: 10px solid #529d77;
+  margin-bottom: 50px;
+}
+.category .cat_info .cat_titile,
+.category .cat_info .cat_status,
+.category .cat_info .cat_descreption {
+  text-align: center;
+}
+/* --------category games custome--------- */
+.Custome_cat .cu_cat_info {
+  position: relative;
+  padding: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #83b957;
+  border: 20px solid black;
+  margin-bottom: 50px;
+}
+.Custome_cat .cu_cat_info .cat_title,
+.Custome_cat .cu_cat_info .cat_status,
+.Custome_cat .cu_cat_info .cat_des {
+  text-align: center;
+}
+/* ganes categiry page */
+/* CSS Grid Container */
+.grid-layout {
+  display: grid;
+  grid-template-columns: 3fr 1fr; /* 3/4 for content, 1/4 for sidebar */
+  grid-gap: 20px; /* Spacing between content and sidebar */
+  margin: 0 auto;
+  max-width: 1200px; /* Optional max width */
+}
+
+/* Main content styling */
+.main-content {
+  background-color: lightgrey;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar styling */
+.sidebar {
+  background-color: #efddddd6;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.post-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Thumbnail and content side by side */
+  grid-gap: 10px;
+}
+
+.post-thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+.post-title {
+  font-size: 1.2rem;
+}
+
+.post-date,
+.post-comment,
+.categories {
+  font-size: 0.9rem;
+  color: #666;
+}
+/* sidebar */
+.category_section h3 {
+  background-color: lightseagreen;
+  width: 100%;
+}
+
+.category_section .cat_content {
+  background-color: darkgray;
+}
+
+/* breadcrimb */
+
+.breadcrumb-Holder .container {
+  background-color: #c3c0c0;
+  margin-top: 5px;
+}
+
+.breadcrumb-Holder .container .breadcrumb {
+  padding: 10px;
+}
+
+.breadcrumb-Holder .container .breadcrumb li {
+  display: inline;
+}
